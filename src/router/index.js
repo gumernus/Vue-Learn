@@ -10,11 +10,6 @@ const routes = [
     component: Home,
   },
   {
-    path: "/profile/:id",
-    name: "Profile",
-    component: Profile,
-  },
-  {
     path: "/profile",
     name: "Profile",
     component: Profile,
