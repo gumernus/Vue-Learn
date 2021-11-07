@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Profile page</h1>
+    <h1>This is profile bcs in routes is path: "/profile" </h1>
   </div>
 </template>
 
