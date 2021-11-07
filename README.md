@@ -1,6 +1,6 @@
 <div align="center">
-    <a><img src="https://cdn.discordapp.com/attachments/867078961799102474/898600193501564938/Bialu-logo-update.png" height="300" width="300"></a>
-    <h1>Bialu Software Website</h1>
+    <a><img src="https://cdn.discordapp.com/attachments/896466642245124157/906507013691940894/Gumenrus_New_1.jpg" height="300" width="300"></a>
+    <h1>Vue Router Website</h1>
 </div>
 
 ### Install Vue.js
@@ -18,5 +18,4 @@
 ---
 
 ### Contribution
-   - [`Astronawta`](https://github.com/jan-holecek)
    - [`Gumernus`](https://github.com/gumernus)
