@@ -72,6 +72,10 @@ h1 {
   font-weight: bold;
 }
 
+.bg-light {
+    background-color: #fff !important;
+}
+
 #nav a {
   color: #2c3e50;
   text-decoration: none;
