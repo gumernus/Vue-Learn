@@ -1,17 +1,23 @@
 <template>
-<h1 v-if="count === 0">Vue is awesome!</h1>
-<h1 v-else>Oh no 😢</h1>
+<h1 v-if="!result">no response</h1>
+<h1 v-else>{{result}}</h1>
 </template>
 
 <script>
+import axios from "axios";
 export default {
   name: 'Template',
-  data() {
+data () {
     return {
-      count: 0
+      result: null
     }
+  },
+  mounted () {
+    axios
+      .get('https://api.coindesk.com/v1/bpi/currentprice.json')
+      .then(response => (this.result = response.data.disclaimer))
   }
-}
+};
 </script>
 
 <style scoped>
